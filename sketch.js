@@ -11,7 +11,7 @@ let yoff = 0.0
 // }
 
 function setup() {
-  createCanvas(640, 360);
+  createCanvas(1280, 720);
   setFrameRate(60);
   ps = new ParticleSystem(createVector(width / 2, 50));
   // loadImage('data/dog.png', img => {
